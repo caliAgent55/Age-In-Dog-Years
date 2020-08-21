@@ -1,0 +1,61 @@
+/* To convert from human years to dog years: the first two years of a dog's life count as 10.5 dog years each. Each year following equates to 4 dog years. 
+*/
+
+// Create a variable names myAge, and set it equal to my age as a number
+
+const myAge = 40;
+
+// Create a variable named earlyYears and save the value 2 to it. The saved value will change later. 
+
+let earlyYears = 2;
+
+// Use the multiplication assignment operator to multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears 
+
+earlyYears *= 10.5;
+ 
+/* Since we already accounted for the first two years, take the myAge variable and subtract 2 from it. * Set the result equasp to a variable calles laterYears. 
+We'll be changing this value later. **/   
+
+let laterYears = myAge - 2; 
+console.log(laterYears);
+
+/* Multiply laterYears by 4 to calculate the number of dog years accounted for by your later years. * Use the multiplication assignment operator to muyltiply and assign in one 
+step. **/
+
+laterYears *= 4;
+console.log(laterYears);
+
+// Add earlyYears and laterYears together and store the result in a variable myAgeInDogYears
+
+console.log(earlyYears + laterYears);
+const myAgeInDogYears = 262.25;
+
+// Write your name as a string and use the .toLowerCase() method to return a string with all lowercase letters. 
+
+firstName = 'ANTHONY';
+console.log(firstName);
+'Anthony Gonzalez'.toLowerCase();
+console.log(firstName);
+
+/* Write a console.log statement that displays your name and age in dog years. * Use string interpolation to display the value in the following sentence: My name is NAME. I am 
+HUMAN AGE years old in human years whish is DOG AGE years old in dog years. **/ 
+
+console.log("My name is "+ firstName +"." + " I am 40 years old in human years which is " + myAgeInDogYears + " years old in dog years.");
+
+//Full code without comments
+
+var myAge = 40;
+
+let earlyYears = 2;
+earlyYears *= 10.5; 
+console.log(earlyYears);
+
+let laterYears= myAge - 2; 
+laterYears *= 4;
+console.log(earlyYears);
+console.log(laterYears); 
+
+console.log(earlyYears + laterYears);
+let myAgeInDogYears= 173; 
+let myName= 'Anthony'.toLowerCase();
+console.log("My name is " + myName + "." + " I am " + myAge + "years old in human years which is " + myAgeInDogYears + " years old in dog years."); 
